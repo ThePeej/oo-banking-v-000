@@ -25,6 +25,7 @@ class Transfer
       checker = false
       # binding.pry
     else
+      checker = false
       "REJECTED"
     end
   end
