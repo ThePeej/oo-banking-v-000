@@ -26,7 +26,7 @@ class Transfer
       # binding.pry
     else
       checker = false
-      "REJECTED"
+      "Transaction rejected. Please check your account balance."
     end
   end
 
