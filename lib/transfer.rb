@@ -20,8 +20,7 @@ class Transfer
     if @sender.valid? && checker
       @sender.balance -= @amount
       @receiver.balance += @amount
-      @sender.status = "complete"
-      @receiver.status = "complete"
+      self.status = "complete"
       checker = false
       # binding.pry
     else
