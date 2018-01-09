@@ -21,7 +21,7 @@ class Transfer
       @receiver.balance += @amount
       @sender.status = "complete"
       @receiver.status = "complete"
-      binding.pry
+      # binding.pry
     else
       "REJECTED"
     end
