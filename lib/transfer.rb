@@ -35,5 +35,6 @@ class Transfer
     else
       @sender.balance
       @receiver.balance
+    end
   end
 end
