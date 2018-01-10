@@ -2,7 +2,7 @@ require 'pry'
 
 class Transfer
   attr_accessor :status
-  attr_reader :sender, :receiver, :amount
+  attr_reader :sender, :receiver, :amount, :valid?
 
   def initialize(sender, receiver, amount)
     @sender = sender
